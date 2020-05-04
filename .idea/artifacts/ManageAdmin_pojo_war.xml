@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ManageAdmin-pojo:war">
+    <output-path>$PROJECT_DIR$/ManageAdmin/ManageAdmin-pojo/target</output-path>
+    <root id="archive" name="ManageAdmin-pojo.war">
+      <element id="artifact" artifact-name="ManageAdmin-pojo:war exploded" />
+    </root>
+  </artifact>
+</component>

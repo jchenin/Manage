@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ManageAdmin-mapper:war">
+    <output-path>$PROJECT_DIR$/ManageAdmin/ManageAdmin-mapper/target</output-path>
+    <root id="archive" name="ManageAdmin-mapper.war">
+      <element id="artifact" artifact-name="ManageAdmin-mapper:war exploded" />
+    </root>
+  </artifact>
+</component>

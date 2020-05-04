@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GeneragotConfig/GeneragotConfig.iml" filepath="$PROJECT_DIR$/GeneragotConfig/GeneragotConfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin.iml" filepath="$PROJECT_DIR$/ManageAdmin/ManageAdmin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/ManageAdmin-admin.iml" filepath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/ManageAdmin-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-common/ManageAdmin-common.iml" filepath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-common/ManageAdmin-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-mapper/ManageAdmin-mapper.iml" filepath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-mapper/ManageAdmin-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-pojo/ManageAdmin-pojo.iml" filepath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-pojo/ManageAdmin-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-service/ManageAdmin-service.iml" filepath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-service/ManageAdmin-service.iml" />
+    </modules>
+  </component>
+</project>

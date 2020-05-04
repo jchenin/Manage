@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ManageAdmin-admin" />
+        <module name="ManageAdmin-common" />
+        <module name="ManageAdmin-mapper" />
+        <module name="ManageAdmin-pojo" />
+        <module name="ManageAdmin-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Common" target="1.7" />
+      <module name="ManageAdmin" target="1.8" />
+      <module name="ManageAdmin-admin" target="1.8" />
+      <module name="ManageAdmin-common" target="1.8" />
+      <module name="ManageAdmin-mapper" target="1.8" />
+      <module name="ManageAdmin-pojo" target="1.8" />
+      <module name="ManageAdmin-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

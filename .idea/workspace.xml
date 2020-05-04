@@ -1,0 +1,1584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ManageAdmin-admin:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3ef6c6dd-2e67-4268-bdd5-e1392582b68a" name="Default" comment="后台管理系统第一次提交">
+      <change afterPath="$PROJECT_DIR$/GeneragotConfig/src/start/GeneratorSqlmap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/static/pages/img/ECUT.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/static/pages/img/baitian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/static/pages/img/paobu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/static/pages/img/yewan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/static/pages/js/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-mapper/src/main/java/jin/chen/mapper/AdminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-mapper/src/main/java/jin/chen/mapper/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-pojo/src/main/java/jin/chen/pojo/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-pojo/src/main/java/jin/chen/pojo/AdminExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneragotConfig/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GeneragotConfig/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneragotConfig/src/jin/chen/mapper/BgmMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneragotConfig/src/jin/chen/mapper/BgmMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneragotConfig/src/jin/chen/mapper/UsersMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneragotConfig/src/jin/chen/mapper/UsersMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneragotConfig/src/jin/chen/mapper/UsersReportMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneragotConfig/src/jin/chen/mapper/UsersReportMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneragotConfig/src/jin/chen/mapper/VideosMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneragotConfig/src/jin/chen/mapper/VideosMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneragotConfig/src/jin/chen/pojo/Bgm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneragotConfig/src/jin/chen/pojo/BgmExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneragotConfig/src/jin/chen/pojo/Users.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneragotConfig/src/jin/chen/pojo/UsersExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneragotConfig/src/jin/chen/pojo/UsersReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneragotConfig/src/jin/chen/pojo/UsersReportExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneragotConfig/src/jin/chen/pojo/Videos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeneragotConfig/src/jin/chen/pojo/VideosExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/java/jin/chen/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/java/jin/chen/controller/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/java/jin/chen/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/java/jin/chen/controller/VideoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/resources/resource/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/resources/resource/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/resources/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/resources/spring/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/center.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/center.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/common/commonFooterJS.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/common/commonFooterJS.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/imooc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/ecut.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/static/pages/js/reportList.js" beforeDir="false" afterPath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/static/pages/js/reportList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/static/pages/js/reportList2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-common/src/main/java/jin/chen/utils/VideoJSONResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-common/src/main/java/jin/chen/utils/VideoJSONResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-mapper/src/main/java/jin/chen/mapper/BgmMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-mapper/src/main/java/jin/chen/mapper/BgmMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-service/src/main/java/jin/chen/service/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-service/src/main/java/jin/chen/service/UsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-service/src/main/java/jin/chen/service/imp/UsersServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/ManageAdmin/ManageAdmin-service/src/main/java/jin/chen/service/imp/UsersServiceImp.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/ManageAdmin/target/" />
+    <ignored path="$PROJECT_DIR$/Common/target/" />
+    <ignored path="$PROJECT_DIR$/ManageAdmin/ManageAdmin-common/target/" />
+    <ignored path="$PROJECT_DIR$/ManageAdmin/ManageAdmin-pojo/target/" />
+    <ignored path="$PROJECT_DIR$/ManageAdmin/ManageAdmin-mapper/target/" />
+    <ignored path="$PROJECT_DIR$/ManageAdmin/ManageAdmin-service/target/" />
+    <ignored path="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="PagedResult.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-common/src/main/java/jin/chen/utils/PagedResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ecut.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/ecut.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsersController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/java/jin/chen/controller/UsersController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2184">
+              <caret line="78" selection-start-line="78" selection-end-line="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/register.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1428">
+              <caret line="51" column="30" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reportList.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/static/pages/js/reportList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="95" column="38" lean-forward="true" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addBgm.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/video/addBgm.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1512" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="springmvc.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/resources/spring/springmvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="56" column="11" lean-forward="true" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VideoController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/java/jin/chen/controller/VideoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4760">
+              <caret line="170" column="57" selection-start-line="170" selection-start-column="57" selection-end-line="170" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ManageA</find>
+      <find>douyin-video-admin-mng</find>
+      <find>resource</find>
+      <find>CharacterEncodingFilter</find>
+      <find>1.7</find>
+      <find>1.8</find>
+      <find>input-error</find>
+      <find>tom</find>
+      <find>Jett</find>
+      <find>jett</find>
+      <find>id=&quot;input-error&quot;</find>
+      <find>bgmContent</find>
+      <find>sid</find>
+      <find>hdnContextPath</find>
+      <find>org.springframework.web</find>
+      <find>select</find>
+      <find>selectByExample</find>
+      <find>isautoplay</find>
+      <find>jsqlparser</find>
+      <find>debu</find>
+      <find>写入</find>
+      <find>bgm</find>
+      <find>de</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ManageAdmin-admin</replace>
+      <replace>class=&quot;input-error&quot;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ManageAdmin" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/GeneragotConfig/src/jin/chen/mapper/BgmMapper.xml" />
+        <option value="$PROJECT_DIR$/GeneragotConfig/src/jin/chen/mapper/BgmMapper.java" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/java/jin/chen/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/java/jin/chen/interceptor/LoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/java/jin/chen/bean/AdminUser.java" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/video/addBgm.jsp" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-service/src/main/java/jin/chen/imp/VideoServiceImp.java" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/java/jin/chen/base/BaseController.java" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/java/jin/chen/util/ZKCurator.java" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-common/src/main/java/jin/chen/enums/BgmOperatorEnum.java" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-mapper/src/main/java/jin/chen/mapper/BgmMapper.java" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-service/src/main/java/jin/chen/util/ZKCurator.java" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-mapper/src/main/java/jin/chen/mapper/BgmMapper.xml" />
+        <option value="$PROJECT_DIR$/ManageAdmin/pom.xml" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-common/src/main/java/jin/chen/utils/PagedResult.java" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/static/pages/js/bgmList.js" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/java/jin/chen/config/ResourceConfig.java" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/video/reportList2.jsp" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/static/pages/js/reportList2.js" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-pojo/src/main/java/jin/chen/pojo/Reports.java" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-pojo/src/main/java/jin/chen/pojo/vo.java" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-mapper/src/main/java/jin/chen/mapper/UsersReportCustomerMapper.java" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-mapper/src/main/java/jin/chen/mapper/UsersReportCustomerMapper.xml" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-pojo/src/main/java/jin/chen/pojo/vo/Reports.java" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-common/src/main/java/jin/chen/enums/VideoStatusEnum.java" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-service/src/main/java/jin/chen/service/VideoService.java" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-service/src/main/java/jin/chen/service/imp/VideoServiceImp.java" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/resources/resource/resource.properties" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/resources/spring/applicationContext-zookeeper.xml" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/common/footer.jsp" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/resources/resource/db.properties" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/login.jsp" />
+        <option value="$PROJECT_DIR$/GeneragotConfig/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-service/src/main/java/jin/chen/service/UsersService.java" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-service/src/main/java/jin/chen/service/imp/UsersServiceImp.java" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/register.jsp" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/common/commonFooterJS.jsp" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/imooc.jsp" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/center.jsp" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-common/src/main/java/jin/chen/utils/VideoJSONResult.java" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/static/pages/js/register.js" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/java/jin/chen/controller/UsersController.java" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/ecut.jsp" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/java/jin/chen/controller/VideoController.java" />
+        <option value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/static/pages/js/reportList.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Applications/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:\Applications\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="短视频后台管理系统" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="短视频后台管理系统" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="短视频后台管理系统" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/static/global/plugins/bootstrap-markdown/package.json" />
+      <path value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/static/global/plugins/shareJS/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-12" />
+    <option name="y" value="132" />
+    <option name="width" value="1890" />
+    <option name="height" value="921" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Manangement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ManageAdmin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Manangement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ManageAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="ManageAdmin-admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Manangement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ManageAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="ManageAdmin-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Manangement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ManageAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="ManageAdmin-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Manangement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ManageAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="ManageAdmin-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Manangement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ManageAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="ManageAdmin-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Manangement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ManageAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="ManageAdmin-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Manangement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ManageAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="ManageAdmin-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Manangement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ManageAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="ManageAdmin-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Manangement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ManageAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="ManageAdmin-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="center" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Manangement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ManageAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="ManageAdmin-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Manangement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ManageAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="ManageAdmin-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Manangement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ManageAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="ManageAdmin-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Manangement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ManageAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="ManageAdmin-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Manangement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ManageAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="ManageAdmin-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enums" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Manangement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ManageAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="ManageAdmin-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Manangement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ManageAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="ManageAdmin-pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Manangement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ManageAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="ManageAdmin-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Manangement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ManageAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="ManageAdmin-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Manangement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ManageAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="ManageAdmin-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ManageAdmin" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2735632" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\毕设\Manangement\ManageAdmin\ManageAdmin-admin\src\main\webapp\WEB-INF\center" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="jin.chen.controller" />
+      <recent name="jin.chen.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\毕设\Manangement\ManageAdmin\ManageAdmin-admin\src\main\webapp\static\pages\img" />
+      <recent name="E:\毕设\Manangement\ManageAdmin\ManageAdmin-admin\src\main\webapp\WEB-INF\center\video" />
+      <recent name="E:\毕设\Manangement\ManageAdmin\ManageAdmin-pojo\src\main\java\jin\chen\pojo" />
+      <recent name="E:\毕设\Manangement\ManageAdmin\ManageAdmin-mapper\src\main\java\jin\chen\mapper" />
+      <recent name="E:\毕设\Manangement\ManageAdmin\ManageAdmin-admin\src\main\webapp\static\pages\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat">
+    <configuration name="GeneratorSqlmap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="start.GeneratorSqlmap" />
+      <module name="GeneragotConfig" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="start.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ManageAdmin-admin [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <file path="E:/videos-dev/mvc-bgm">
+          <settings>
+            <option name="CONTEXT_PATH" value="/mvc-bgm" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_Manangement_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62860" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+    </configuration>
+    <configuration default="true" type="TomeeConfiguration" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <file path="E:/videos-dev/mvc-bgm">
+          <settings>
+            <option name="CONTEXT_PATH" value="/mvc-bgm" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="6f24e994-dd92-4188-9bf2-7c80449dc9fc" />
+                    <id>6f24e994-dd92-4188-9bf2-7c80449dc9fc</id>
+                  </TransportTarget>
+                </option>
+                <option name="watchedLocalPath" value="" />
+                <watched-path />
+                <name>CONTEXT_XML</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="6f24e994-dd92-4188-9bf2-7c80449dc9fc" />
+                    <id>6f24e994-dd92-4188-9bf2-7c80449dc9fc</id>
+                  </TransportTarget>
+                </transport-target>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <option name="stagingRemotePath" value="" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="74aeef7b-5ed8-4f6b-8c7e-696bdf084ae6" />
+                    <id>74aeef7b-5ed8-4f6b-8c7e-696bdf084ae6</id>
+                  </TransportTarget>
+                </option>
+                <staging-path />
+                <name>STAGING</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="74aeef7b-5ed8-4f6b-8c7e-696bdf084ae6" />
+                    <id>74aeef7b-5ed8-4f6b-8c7e-696bdf084ae6</id>
+                  </TransportTarget>
+                </transport-target>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" value="" />
+          <host-id />
+        </data>
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62878" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+    </configuration>
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.6" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="update-resources" />
+      <deployment>
+        <file path="E:/videos-dev/mvc-bgm">
+          <settings>
+            <option name="CONTEXT_PATH" value="/mvc-bgm" />
+          </settings>
+        </file>
+        <artifact name="ManageAdmin-admin:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Manangement" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60102" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="51194" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ManageAdmin-admin:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <file path="E:/videos-dev/mvc-bgm">
+          <settings>
+            <option name="CONTEXT_PATH" value="/mvc-bgm" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_Manangement" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60102" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <file path="E:/videos-dev/mvc-bgm">
+          <settings>
+            <option name="CONTEXT_PATH" value="/mvc-bgm" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="d8656b33-7d33-4dee-90cd-c451c8681ffa" />
+                    <id>d8656b33-7d33-4dee-90cd-c451c8681ffa</id>
+                  </TransportTarget>
+                </option>
+                <option name="watchedLocalPath" value="" />
+                <watched-path />
+                <name>CONTEXT_XML</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="d8656b33-7d33-4dee-90cd-c451c8681ffa" />
+                    <id>d8656b33-7d33-4dee-90cd-c451c8681ffa</id>
+                  </TransportTarget>
+                </transport-target>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <option name="stagingRemotePath" value="" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="a665d244-60be-4e59-954d-38bad12fa4fd" />
+                    <id>a665d244-60be-4e59-954d-38bad12fa4fd</id>
+                  </TransportTarget>
+                </option>
+                <staging-path />
+                <name>STAGING</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="a665d244-60be-4e59-954d-38bad12fa4fd" />
+                    <id>a665d244-60be-4e59-954d-38bad12fa4fd</id>
+                  </TransportTarget>
+                </transport-target>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" value="" />
+          <host-id />
+        </data>
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60103" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat" />
+      <item itemvalue="Application.GeneratorSqlmap" />
+      <item itemvalue="Maven.ManageAdmin-admin [tomcat7:run]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GeneratorSqlmap" />
+        <item itemvalue="Maven.ManageAdmin-admin [tomcat7:run]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructuralSearchPlugin">
+    <searchConfiguration name="user defined" created="1583408146219" text="input-error" recursive="true" caseInsensitive="true" type="CSS" history="1" />
+    <searchConfiguration name="user defined" created="1583408069139" text="input-error" recursive="true" caseInsensitive="true" type="HTML" history="1" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ef6c6dd-2e67-4268-bdd5-e1392582b68a" name="Default" comment="" />
+      <created>1583391375067</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583391375067</updated>
+      <workItem from="1583391378528" duration="3097000" />
+      <workItem from="1583394517645" duration="8386000" />
+      <workItem from="1583559306790" duration="3925000" />
+      <workItem from="1583731021915" duration="6177000" />
+      <workItem from="1583812506024" duration="10521000" />
+      <workItem from="1583850241677" duration="3097000" />
+      <workItem from="1583853484002" duration="3111000" />
+      <workItem from="1583911171424" duration="3595000" />
+      <workItem from="1583988204298" duration="1913000" />
+      <workItem from="1583996440053" duration="4059000" />
+      <workItem from="1584071349586" duration="3207000" />
+      <workItem from="1584077778958" duration="22000" />
+      <workItem from="1584186026151" duration="2159000" />
+      <workItem from="1584447236007" duration="17575000" />
+      <workItem from="1584513236689" duration="985000" />
+      <workItem from="1584539644130" duration="1198000" />
+      <workItem from="1584711689972" duration="11603000" />
+      <workItem from="1584771886415" duration="12533000" />
+      <workItem from="1584861464520" duration="7310000" />
+      <workItem from="1584939143066" duration="2852000" />
+      <workItem from="1585025510559" duration="8405000" />
+      <workItem from="1585208111537" duration="518000" />
+      <workItem from="1585225023244" duration="1407000" />
+      <workItem from="1585283234528" duration="2159000" />
+      <workItem from="1585458659194" duration="713000" />
+      <workItem from="1585551888175" duration="1201000" />
+      <workItem from="1585632152852" duration="627000" />
+      <workItem from="1586157406325" duration="2606000" />
+      <workItem from="1586267671154" duration="599000" />
+      <workItem from="1586304553283" duration="599000" />
+      <workItem from="1586318837031" duration="5206000" />
+      <workItem from="1586940082554" duration="1429000" />
+      <workItem from="1587869409827" duration="796000" />
+      <workItem from="1588128819521" duration="18108000" />
+      <workItem from="1588333804555" duration="1888000" />
+      <workItem from="1588421648079" duration="633000" />
+      <workItem from="1588582120202" duration="119000" />
+      <workItem from="1588584910047" duration="1587000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="155925000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="17" sideWeight="0.5004042" side_tool="true" weight="0.6994633" />
+      <window_info anchor="bottom" id="Application Servers" order="16" weight="0.3291592" />
+      <window_info anchor="bottom" id="JRebel Console" order="2" sideWeight="0.14308812" side_tool="true" weight="0.73655915" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32012933" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Executor" order="1" sideWeight="0.8569119" weight="0.73655915" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32983023" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="5" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.5071685" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.3291592" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.77956986" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.4995958" weight="0.8369176" />
+      <window_info anchor="bottom" id="Spring" order="10" weight="0.3291592" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3291592" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.36459175" />
+      <window_info anchor="bottom" id="Problems" order="0" weight="0.3291592" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="JRebel" order="0" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.63799286" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-service/src/main/java/jin/chen/service/imp/VideoServiceImp.java</url>
+          <line>54</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-common/src/main/java/jin/chen/enums/BgmOperatorEnum.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-service/src/main/java/jin/chen/service/imp/VideoServiceImp.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-service/src/main/java/jin/chen/service/imp/VideoServiceImp.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/java/jin/chen/controller/VideoController.java</url>
+          <line>135</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/java/jin/chen/controller/UsersController.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="14" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="this" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/static/pages/js/reportList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2576">
+          <caret line="92" column="31" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/java/jin/chen/controller/UsersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1568">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="51" column="30" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/static/pages/js/reportList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="896">
+          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/static/pages/js/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1400">
+          <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/ecut.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneragotConfig/src/jin/chen/mapper/VideosMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneragotConfig/src/start/GeneratorSqlmap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneragotConfig/src/jin/chen/mapper/UsersMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneragotConfig/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-850">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-mapper/src/main/java/jin/chen/mapper/UsersMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2128">
+          <caret line="76" column="46" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-mapper/src/main/java/jin/chen/mapper/BgmMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-mapper/src/main/java/jin/chen/mapper/AdminMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneragotConfig/src/jin/chen/mapper/BgmMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-pojo/src/main/java/jin/chen/pojo/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-service/src/main/java/jin/chen/service/imp/UsersServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="85" column="53" selection-start-line="85" selection-start-column="53" selection-end-line="85" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneragotConfig/src/jin/chen/mapper/BgmMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31118" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GeneragotConfig/src/jin/chen/pojo/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/static/pages/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/common/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/common/commonHeaderCSS.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1074" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/common/menu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="58" column="29" lean-forward="true" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/common/commonFooterJS.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/imooc.jsp" />
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/center.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="50" column="55" lean-forward="true" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/static/pages/js/reportList2.js" />
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/java/jin/chen/base/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/java/jin/chen/bean/AdminUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-248">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/java/jin/chen/interceptor/LoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="9" column="60" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/resources/mybatis/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1018" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/resources/resource/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-364" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-346" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/resources/spring/applicationContext-transaction.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/resources/spring/applicationContext-zookeeper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-700" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-service/src/main/java/jin/chen/service/UsersService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-common/src/main/java/jin/chen/enums/BgmOperatorEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-common/src/main/java/jin/chen/enums/VideoStatusEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-common/src/main/java/jin/chen/utils/PagedResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-common/src/main/java/jin/chen/utils/VideoJSONResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/java/jin/chen/controller/UsersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2184">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="51" column="30" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/ecut.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-service/src/main/java/jin/chen/service/imp/VideoServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="103" column="16" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-service/src/main/java/jin/chen/service/VideoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/static/pages/js/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1400">
+          <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/java/jin/chen/controller/VideoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4760">
+          <caret line="170" column="57" selection-start-line="170" selection-start-column="57" selection-end-line="170" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/static/pages/js/reportList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="95" column="38" lean-forward="true" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/resources/resource/resource.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/webapp/WEB-INF/center/video/addBgm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1512" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageAdmin/ManageAdmin-admin/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="56" column="11" lean-forward="true" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ManageAdmin-pojo:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2735632" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2735632" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ManageAdmin-admin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2735632" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:druid:1.1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2735632" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
